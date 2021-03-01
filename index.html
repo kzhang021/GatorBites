@@ -20,7 +20,10 @@
           attribution:'<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
         }).addTo(map);
 
-      var ufmarker = L.marker([29.641569, -82.346252]).addTo(map);
+      var gatorDiningMarker = L.marker([29.641569, -82.346252]).addTo(map);
+      
+      gatorDiningMarker.bindPopup("<b> Gator Dining Services </b><br> Address: <br> Menu: <br> Hours:").openPopup();
+
     </script>
 
   </body>
